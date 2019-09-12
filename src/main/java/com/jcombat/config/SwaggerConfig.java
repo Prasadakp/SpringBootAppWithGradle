@@ -1,48 +1,36 @@
 package com.jcombat.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
-
-import com.jcombat.controller.DemoController;
-
-import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import static springfox.documentation.builders.PathSelectors.regex;
 
-@EnableSwagger2
-@PropertySource("classpath:swagger.properties")
-@ComponentScan(basePackageClasses = DemoController.class)
+
 @Configuration
+@EnableSwagger2
 public class SwaggerConfig {
-	
-	private static final String SWAGGER_API_VERSION = "2.6.1";
-	private static final String LINCENSE_TEXT = "License";
-	private static final String title ="login api";
-	private static final String description = "welcome login API";
-	private String pathRegex;
-	
-	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder()
-				.title(title)
-				.description(description)
-				.license(LINCENSE_TEXT)
-				.version(SWAGGER_API_VERSION)
-				.build();
-	}
-	
-	@Bean
-	public Docket LoginApi() {
-		return new Docket(DocumentationType.SWAGGER_2)
-				.apiInfo(apiInfo())
-				.pathMapping("/")
-				.select()
-				.paths(PathSelectors.regex(pathRegex = "/api.*"))
-				.build();
-	}
-
+    @Bean
+    public Docket productApi() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .select()                 .apis(RequestHandlerSelectors.basePackage("com.jcombat.controller"))
+                .paths(regex("/test.*"))
+                .build()
+                .apiInfo(metaData());
+    }
+    private ApiInfo metaData() {
+        ApiInfo apiInfo = new ApiInfo(
+                "Spring Boot REST API",
+                "Spring Boot REST API for login validation",
+                "1.0",
+                "Terms of service",
+                new Contact("Prasad KP", "https://github.com/Prasadakp/SpringBootAppWithGradle.git", "prasada.kp96@gmail.com"),
+               "Apache License Version 2.0",
+                "https://www.apache.org/licenses/LICENSE-2.0");
+        return apiInfo;
+    }
 }

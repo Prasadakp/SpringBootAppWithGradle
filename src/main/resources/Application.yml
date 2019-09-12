@@ -8,3 +8,6 @@ logging:
     
     com.jcombat: DEBUG
     org.hibernate: ERROR
+
+server:
+  port: 8082

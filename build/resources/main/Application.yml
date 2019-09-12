@@ -5,5 +5,9 @@ logging:
     file: "%d %-5level [%thread] %logger : %msg%n"
   level:
     org.springframework.web: ERROR
+    
     com.jcombat: DEBUG
     org.hibernate: ERROR
+
+server:
+  port: 8082

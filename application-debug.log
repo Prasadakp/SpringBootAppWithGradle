@@ -22,3 +22,128 @@
 2019-03-25 22:06:12,825 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
 2019-03-25 22:06:12,889 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2019-03-25 22:06:12,898 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 3.7 seconds (JVM running for 4.703)
+2019-09-13 01:03:59,291 INFO  [main] com.jcombat.SpringBootApplication : Starting SpringBootApplication on LAPTOP-A18G1GB6 with PID 10840 (C:\Git\SpringBootAppWithGradle\bin started by Prasad k P in C:\Git\SpringBootAppWithGradle)
+2019-09-13 01:03:59,437 DEBUG [main] com.jcombat.SpringBootApplication : Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+2019-09-13 01:03:59,438 INFO  [main] com.jcombat.SpringBootApplication : No active profile set, falling back to default profiles: default
+2019-09-13 01:04:01,390 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:04:01 IST 2019]; root of context hierarchy
+2019-09-13 01:04:09,180 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2019-09-13 01:04:09,395 INFO  [main] org.apache.catalina.core.StandardService : Starting service Tomcat
+2019-09-13 01:04:09,397 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.6
+2019-09-13 01:04:10,470 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2019-09-13 01:04:11,816 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-13 01:04:11,935 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-13 01:04:11,941 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-13 01:04:11,944 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-13 01:04:11,947 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-13 01:04:17,443 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2019-09-13 01:04:17,495 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2019-09-13 01:04:17,499 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-13 01:04:17,709 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-13 01:04:17,795 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-09-13 01:04:18,222 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2019-09-13 01:04:18,234 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 21.227 seconds (JVM running for 24.32)
+2019-09-13 01:08:59,711 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-13 01:13:45,092 INFO  [RMI TCP Connection(31)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-09-13 01:13:45,145 INFO  [RMI TCP Connection(31)-127.0.0.1] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:04:01 IST 2019]; root of context hierarchy
+2019-09-13 01:13:45,264 INFO  [RMI TCP Connection(31)-127.0.0.1] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2019-09-13 01:13:45,308 INFO  [RMI TCP Connection(31)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2019-09-13 01:27:13,772 INFO  [main] com.jcombat.SpringBootApplication : Starting SpringBootApplication on LAPTOP-A18G1GB6 with PID 10288 (C:\Git\SpringBootAppWithGradle\bin started by Prasad k P in C:\Git\SpringBootAppWithGradle)
+2019-09-13 01:27:13,788 DEBUG [main] com.jcombat.SpringBootApplication : Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+2019-09-13 01:27:13,790 INFO  [main] com.jcombat.SpringBootApplication : No active profile set, falling back to default profiles: default
+2019-09-13 01:27:14,534 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59309333: startup date [Fri Sep 13 01:27:14 IST 2019]; root of context hierarchy
+2019-09-13 01:27:19,045 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2019-09-13 01:27:19,060 INFO  [main] org.apache.catalina.core.StandardService : Starting service Tomcat
+2019-09-13 01:27:19,062 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.6
+2019-09-13 01:27:21,280 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2019-09-13 01:27:21,561 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-13 01:27:21,572 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-13 01:27:21,574 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-13 01:27:21,575 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-13 01:27:21,577 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-13 01:27:25,921 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2019-09-13 01:27:25,949 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2019-09-13 01:27:25,953 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-13 01:27:26,051 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-13 01:27:26,103 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-09-13 01:27:26,417 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2019-09-13 01:27:26,430 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 14.469 seconds (JVM running for 20.288)
+2019-09-13 01:27:56,550 INFO  [http-nio-8082-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-13 01:34:05,321 INFO  [RMI TCP Connection(30)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-09-13 01:34:05,322 INFO  [RMI TCP Connection(30)-127.0.0.1] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59309333: startup date [Fri Sep 13 01:27:14 IST 2019]; root of context hierarchy
+2019-09-13 01:34:05,428 INFO  [RMI TCP Connection(30)-127.0.0.1] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2019-09-13 01:34:05,431 INFO  [RMI TCP Connection(30)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2019-09-13 01:34:56,623 INFO  [main] com.jcombat.SpringBootApplication : Starting SpringBootApplication on LAPTOP-A18G1GB6 with PID 9840 (C:\Git\SpringBootAppWithGradle\bin started by Prasad k P in C:\Git\SpringBootAppWithGradle)
+2019-09-13 01:34:56,631 DEBUG [main] com.jcombat.SpringBootApplication : Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+2019-09-13 01:34:56,632 INFO  [main] com.jcombat.SpringBootApplication : No active profile set, falling back to default profiles: default
+2019-09-13 01:34:57,274 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59309333: startup date [Fri Sep 13 01:34:57 IST 2019]; root of context hierarchy
+2019-09-13 01:34:59,696 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2019-09-13 01:34:59,707 INFO  [main] org.apache.catalina.core.StandardService : Starting service Tomcat
+2019-09-13 01:34:59,709 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.6
+2019-09-13 01:34:59,791 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2019-09-13 01:34:59,971 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-13 01:34:59,975 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-13 01:34:59,976 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-13 01:34:59,976 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-13 01:34:59,977 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-13 01:35:03,028 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2019-09-13 01:35:03,056 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2019-09-13 01:35:03,059 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-13 01:35:03,127 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-13 01:35:03,166 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-09-13 01:35:03,477 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2019-09-13 01:35:03,486 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 7.393 seconds (JVM running for 9.228)
+2019-09-13 01:35:12,130 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-13 01:39:36,714 INFO  [RMI TCP Connection(23)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-09-13 01:39:36,715 INFO  [RMI TCP Connection(23)-127.0.0.1] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59309333: startup date [Fri Sep 13 01:34:57 IST 2019]; root of context hierarchy
+2019-09-13 01:39:36,719 INFO  [RMI TCP Connection(23)-127.0.0.1] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2019-09-13 01:39:36,721 INFO  [RMI TCP Connection(23)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2019-09-13 01:39:52,462 INFO  [main] com.jcombat.SpringBootApplication : Starting SpringBootApplication on LAPTOP-A18G1GB6 with PID 6976 (C:\Git\SpringBootAppWithGradle\bin started by Prasad k P in C:\Git\SpringBootAppWithGradle)
+2019-09-13 01:39:52,465 DEBUG [main] com.jcombat.SpringBootApplication : Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+2019-09-13 01:39:52,467 INFO  [main] com.jcombat.SpringBootApplication : No active profile set, falling back to default profiles: default
+2019-09-13 01:39:52,720 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:39:52 IST 2019]; root of context hierarchy
+2019-09-13 01:39:54,193 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2019-09-13 01:39:54,204 INFO  [main] org.apache.catalina.core.StandardService : Starting service Tomcat
+2019-09-13 01:39:54,205 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.6
+2019-09-13 01:39:54,411 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2019-09-13 01:39:54,580 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-13 01:39:54,585 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-13 01:39:54,586 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-13 01:39:54,587 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-13 01:39:54,587 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-13 01:39:55,846 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2019-09-13 01:39:55,892 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2019-09-13 01:39:55,897 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-13 01:39:55,965 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-13 01:39:55,999 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-09-13 01:39:56,176 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2019-09-13 01:39:56,192 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 4.137 seconds (JVM running for 5.917)
+2019-09-13 01:40:30,484 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-13 01:40:41,337 INFO  [RMI TCP Connection(11)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-09-13 01:40:41,339 INFO  [RMI TCP Connection(11)-127.0.0.1] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:39:52 IST 2019]; root of context hierarchy
+2019-09-13 01:40:41,341 INFO  [RMI TCP Connection(11)-127.0.0.1] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2019-09-13 01:40:41,344 INFO  [RMI TCP Connection(11)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2019-09-13 01:40:51,049 INFO  [main] com.jcombat.SpringBootApplication : Starting SpringBootApplication on LAPTOP-A18G1GB6 with PID 6516 (C:\Git\SpringBootAppWithGradle\bin started by Prasad k P in C:\Git\SpringBootAppWithGradle)
+2019-09-13 01:40:51,053 DEBUG [main] com.jcombat.SpringBootApplication : Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+2019-09-13 01:40:51,054 INFO  [main] com.jcombat.SpringBootApplication : No active profile set, falling back to default profiles: default
+2019-09-13 01:40:51,289 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:40:51 IST 2019]; root of context hierarchy
+2019-09-13 01:40:52,791 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8082 (http)
+2019-09-13 01:40:52,811 INFO  [main] org.apache.catalina.core.StandardService : Starting service Tomcat
+2019-09-13 01:40:52,812 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.6
+2019-09-13 01:40:52,924 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2019-09-13 01:40:53,073 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-13 01:40:53,077 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-13 01:40:53,078 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-13 01:40:53,079 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-13 01:40:53,080 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-13 01:40:54,203 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2019-09-13 01:40:54,212 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 2147483647
+2019-09-13 01:40:54,213 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+2019-09-13 01:40:54,238 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-09-13 01:40:54,263 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+2019-09-13 01:40:55,218 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8082 (http)
+2019-09-13 01:40:55,224 INFO  [main] com.jcombat.SpringBootApplication : Started SpringBootApplication in 4.568 seconds (JVM running for 6.021)
+2019-09-13 01:41:09,037 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-13 01:45:27,088 INFO  [RMI TCP Connection(25)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-09-13 01:45:27,088 INFO  [RMI TCP Connection(25)-127.0.0.1] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5876a9af: startup date [Fri Sep 13 01:40:51 IST 2019]; root of context hierarchy
+2019-09-13 01:45:27,093 INFO  [RMI TCP Connection(25)-127.0.0.1] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 2147483647
+2019-09-13 01:45:27,095 INFO  [RMI TCP Connection(25)-127.0.0.1] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
