@@ -4,7 +4,7 @@ applications:
   memory: 300MB
   instances: 1
   buildpack: https://github.com/Prasadakp/SpringBootAppWithGradle.git#v3.19
-  path: path.to.jar
+  path: ./build/libs/boot-gradle-0.0.1-SNAPSHOT.jar
   route: SpringBootAppWithGradle.cf-app.com/v2
   env:
     SPRING_PROFILES_ACTIVE: cloud,dev
